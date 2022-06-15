@@ -12,6 +12,6 @@ To do this go to the main page for the repository you just created then click on
 
 On the Terminal (Linux or Mac) or Command Prompt (Windows) type 
 
-'''' git clone [HTTPS LINK] ''''
+```` git clone [HTTPS LINK] ````
 
 where [HTTPS LINK] is the link you copied
