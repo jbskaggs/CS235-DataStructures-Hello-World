@@ -8,7 +8,7 @@
 
 To do this go to the main page for the repository you just created then click on code and copy the HTTPS link.  On the Terminal (Linux or Mac) or Command Prompt (Windows) cd into the folder where you want the repository.   I perfer to put things in the default place for Clion in a folder called CLionProjects.  If you were to do the same than you would use the following command
 
-```` cd C:\Users\jskag\CLionProjects\ ````
+```` cd C:\Users\[USER]\CLionProjects\ ````
 
 
 Once you are in the folder where you want your repository and type 
