@@ -3,5 +3,5 @@ project(CS235_DataStructures_Hello_World)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CS235_DataStructures_Hello_World
+add_executable(hello
         HelloWorld.cpp)
