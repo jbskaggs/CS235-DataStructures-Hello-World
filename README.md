@@ -71,7 +71,69 @@ int main(int argc, char *argv[]) {
 }
 ````
 
+# Step 4: Setting up Compiler and Make
 
-# Step 4: Setting up Compiler
+In this class we will use g++ to compile our projects from the command line.  In order to do this, you will need to download a c++ compiler called g++.
+
+## Windows
+
+Download and install MinGW.  It can be found at the following link:
+
+https://sourceforge.net/projects/mingw/
+
+## Mac
+
+You first need to make sure that you have hombrew installed.  Type brew into the terminal and it should return to you some example usages or it might say '-bash: brew: command not found'.  
+
+If you dont have homebrew install using instructions at brew.sh
+
+Once you have installed Hombrew install g++ using the command
+
+```` brew install g++ ````
+
+
+## Linux
+
+type the following command into the terminal 
+
+```` sudo apt install g++ ````
+
+## Verifying
+
+You should have g++ installed on your computer now.  If you type g++ in your Terminal / Command Prompt you should get a responce like 'error no imput files'.
+
+## Compiling your project
+
+Now that we have g++ installed it is time to compile your HelloWorld program.  If you type 
+
+```` g++ *.cpp -o hello ````
+
+We use \*.cpp to represent all files that end with .cpp and then we pass hello as an argument for -o as a name for the program.
+
+Now if we type  ```` hello ```` into the terminal it should run our hello world program.
+
+# Step 5: Putting it all together
+
+Try to add your new HelloWorld to GitHub.
+
+## Add HelloWorld.cpp to your git project
+
+Run the command:
+
+```` git add *.cpp ````
+
+## Commit the changes to the git project.
+
+Run the command:
+
+```` git commit -m "Hello World Program" ````
+
+## Push changes to GitHub repository.
+
+Run the command:
+
+```` git push ````
+
+Now all of your changes should appear on GitHub.
 
 
