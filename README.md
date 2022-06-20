@@ -116,7 +116,7 @@ Now if we type  ```` hello ```` into the terminal it should run our hello world 
 
 Try to add your new HelloWorld to GitHub.
 
-## Add HelloWorld.cpp to your git project
+## Add files to your git project
 
 Run the command:
 
