@@ -85,7 +85,9 @@ https://sourceforge.net/projects/mingw/
 
 You first need to make sure that you have hombrew installed.  Type brew into the terminal and it should return to you some example usages or it might say '-bash: brew: command not found'.  
 
-If you dont have homebrew install using instructions at brew.sh
+If you dont have homebrew install using instructions at 
+
+[brew.sh](https://brew.sh/)
 
 Once you have installed Hombrew install g++ using the command
 
