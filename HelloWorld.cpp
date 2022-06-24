@@ -16,6 +16,7 @@ int main(int argc, char *argv[]) {
     else { // if there was an argument passed into then display a different message greeting the name of the person
         cout << "Hello " << argv[1] << ", welcome to the world of computer science!" << endl; // print hello greeting to the command line
     }
+    return -1;
     return 0; // 0 implies that the program ran successfully
 }
 
